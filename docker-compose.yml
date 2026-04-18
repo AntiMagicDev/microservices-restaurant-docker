@@ -1,0 +1,19 @@
+version: "3"
+services:
+  gateway:
+    image: juanag10/gateway:v1
+    ports:
+      - "3000:3000"
+    depends_on:
+      - users-service
+      - menu-services
+      - orders-service
+
+  users-service:
+    image: juanag10/users-service:v1
+
+  menu-services:
+    image: juanag10/menu-services:v1
+
+  orders-service:
+    image: juanag10/orders-service:v1
