@@ -32,3 +32,6 @@ docker-compose up
 - juanag10/users-service:v1
 - juanag10/menu-service:v1
 - juanag10/orders-service:v1
+
+## Main repo
+- https://github.com/AntiMagicDev/microservices-restaurant
